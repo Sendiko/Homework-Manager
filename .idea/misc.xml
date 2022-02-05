@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/addcircle.xml" value="0.2555" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/border.xml" value="0.2555" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/borderbuttondelete.xml" value="0.2555" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/borderbuttonedit.xml" value="0.2555" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/activity_add.xml" value="0.4" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/activity_splash_screen.xml" value="0.2223731884057971" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/list_idols.xml" value="0.536" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/addcircle.xml" value="0.26614583333333336" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/border.xml" value="0.26614583333333336" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/borderbuttondelete.xml" value="0.26614583333333336" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/borderbuttonedit.xml" value="0.26614583333333336" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/delete.xml" value="0.22870370370370371" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/edit.xml" value="0.22870370370370371" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/ic_menu.xml" value="0.2555" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/sort.xml" value="0.26614583333333336" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/font/rubik.xml" value="0.28020833333333334" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/font/rubik_medium.xml" value="0.28020833333333334" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/layout/activity_add.xml" value="0.264" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/layout/activity_edit.xml" value="0.18115942028985507" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/layout/activity_idols.xml" value="0.23641304347826086" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/layout/activity_main.xml" value="0.46647230320699706" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/layout/activity_splash_screen.xml" value="0.12158054711246201" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/layout/adapter_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/layout/dropdownmenu.xml" value="0.8800000000000001" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/layout/list_idols.xml" value="0.8614035087719298" />
+        <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/layout/lsit_idols.xml" value="0.23641304347826086" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

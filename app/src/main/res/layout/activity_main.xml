@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:background="@color/blue">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_idols"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menu"
+        android:tint="@color/white"
+        android:backgroundTint="@color/red"
+        android:background="@color/white"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/ic_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+    />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="@color/lightblue"
+        android:focusable="true"
+        android:tint="@color/white"
+        android:visibility="visible"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/menu"
+        app:layout_constraintEnd_toEndOf="@+id/menu"
+        app:srcCompat="@drawable/ic_add"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_sort2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="@color/lightblue"
+        android:focusable="true"
+        android:tint="@color/white"
+        android:visibility="visible"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_add"
+        app:layout_constraintEnd_toEndOf="@+id/btn_add"
+        app:srcCompat="@drawable/sort"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <!--        android:fontFamily="@font/rubik_medium"-->
+    <!--        android:text="Add Idols"-->
+    <!--        tools:ignore="SpeakableTextPresentCheck" -->
+
+    <!--    TODO DROPDOWN BUTTON FAIL   -->
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="55dp"-->
+    <!--        android:layout_marginEnd="5dp"-->
+    <!--        android:layout_marginBottom="5dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/rv_idols"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.0">-->
+
+    <!--        <AutoCompleteTextView-->
+    <!--            android:id="@+id/autoCompleteTextView"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:inputType="none"-->
+    <!--            android:text="Name A-Z" />-->
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+    <!-- TODO IMAGE BUTTON -->
+<!--    <ImageButton-->
+<!--    android:id="@+id/btn_sort"-->
+<!--    android:layout_width="48dp"-->
+<!--    android:layout_height="48dp"-->
+<!--    android:layout_marginTop="5dp"-->
+<!--    android:layout_marginEnd="5dp"-->
+<!--    android:layout_marginBottom="5dp"-->
+<!--    android:background="@color/darkgreen"-->
+<!--    app:layout_constraintBottom_toTopOf="@+id/rv_idols"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    app:srcCompat="@drawable/sort"-->
+<!--    tools:ignore="SpeakableTextPresentCheck" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
