@@ -4,13 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/addcircle.xml" value="0.2555" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/book.xml" value="0.2485" />
         <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/border.xml" value="0.2555" />
         <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/borderbuttondelete.xml" value="0.2555" />
         <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/borderbuttonedit.xml" value="0.2555" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/bordermain.xml" value="0.2485" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/check.xml" value="0.2485" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/sort.xml" value="0.2485" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/drawable/underline.xml" value="0.2485" />
         <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/activity_add.xml" value="0.4" />
         <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/activity_search.xml" value="0.2223731884057971" />
         <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/activity_splash_screen.xml" value="0.2223731884057971" />
-        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/list_idols.xml" value="0.536" />
+        <entry key="..\:/DELL/Documents/KK4-B/KotlinRoom - Homework Manager/app/src/main/res/layout/list_idols.xml" value="0.4" />
         <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
         <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/addcircle.xml" value="0.26614583333333336" />
         <entry key="..\:/Document/KK4-B/KotlinRoom/app/src/main/res/drawable/border.xml" value="0.26614583333333336" />

@@ -7,15 +7,39 @@
     tools:context=".activity.MainActivity"
     android:background="@color/blue">
 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:drawableEnd="@drawable/book"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/rubik"
+        android:padding="12dp"
+        android:text="Homework Manager"
+        android:textColor="@color/almostwhite"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/rv_idols"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.recyclerview.widget.RecyclerView
+        android:background="@drawable/border"
+        android:padding="4dp"
         android:id="@+id/rv_idols"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
         app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -46,7 +70,7 @@
         android:focusable="true"
         android:tint="@color/white"
         android:visibility="visible"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toTopOf="@+id/menu"
         app:layout_constraintEnd_toEndOf="@+id/menu"
         app:srcCompat="@drawable/ic_add"
@@ -65,6 +89,21 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_add"
         app:layout_constraintEnd_toEndOf="@+id/btn_add"
         app:srcCompat="@drawable/sort"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/lightblue"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/white"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sort2"
+        app:layout_constraintEnd_toEndOf="@+id/btn_sort2"
+        app:srcCompat="@android:drawable/ic_menu_search"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <!--        android:fontFamily="@font/rubik_medium"-->

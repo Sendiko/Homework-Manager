@@ -55,9 +55,11 @@ class MainActivity : AppCompatActivity() {
         if(clicked){
             btn_add.visibility = View.GONE
             btn_sort2.visibility = View.GONE
+            btn_search.visibility = View.GONE
         }else {
             btn_add.visibility = View.VISIBLE
             btn_sort2.visibility = View.VISIBLE
+            btn_search.visibility = View.VISIBLE
         }
     }
 
@@ -65,10 +67,12 @@ class MainActivity : AppCompatActivity() {
         if (clicked){
             btn_add.startAnimation(toBottom)
             btn_sort2.startAnimation(toBottom)
+            btn_search.startAnimation(toBottom)
             menu.startAnimation(rotateClose)
         }else {
             btn_add.startAnimation(fromBottom)
             btn_sort2.startAnimation(fromBottom)
+            btn_search.startAnimation(fromBottom)
             menu.startAnimation(rotateOpen)
         }
     }
@@ -77,9 +81,11 @@ class MainActivity : AppCompatActivity() {
         if(clicked){
             btn_add.isClickable = false
             btn_sort2.isClickable = false
+            btn_search.isClickable = false
         }else {
             btn_add.isClickable = true
             btn_sort2.isClickable = true
+            btn_search.isClickable = true
         }
     }
 
@@ -108,6 +114,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     // TODO SETUPLISTENER
     private fun setupListener() {
         menu.setOnClickListener{
@@ -118,7 +125,12 @@ class MainActivity : AppCompatActivity() {
         }
         btn_sort2.setOnClickListener {
             sortData()
-            Toast.makeText(this, "Sorted by name A-Z", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Sorted by subject A-Z", Toast.LENGTH_SHORT).show()
+        }
+        btn_search.setOnClickListener {
+            intent = Intent(this, SearchActivity::class.java)
+            startActivity(intent)
+//            Toast.makeText(this, "Search Data", Toast.LENGTH_SHORT).show()
         }
 //        btn_add.setOnClickListener{
 //            intentEdit(0, Const.TYPE_CREATE)
@@ -164,11 +176,11 @@ class MainActivity : AppCompatActivity() {
         val alertDialog = AlertDialog.Builder(this)
         alertDialog.apply {
             setTitle("Konfirmasi")
-            setMessage("Yakin ingin hapus ${homework.title} ?")
+            setMessage("Yakin ${homework.title} sudah selesai ?")
             setNegativeButton("Batal" ) { dialogInterface, _ ->
                 dialogInterface.dismiss()
             }
-            setPositiveButton("Hapus" ) { dialogInterface, _ ->
+            setPositiveButton("Sudah" ) { dialogInterface, _ ->
                 dialogInterface.dismiss()
                 CoroutineScope(Dispatchers.IO).launch{
                     db.homeworkDao().deleteHomework(homework)

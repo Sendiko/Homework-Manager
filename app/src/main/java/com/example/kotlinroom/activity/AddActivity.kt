@@ -1,10 +1,11 @@
 package com.example.kotlinroom.activity
 
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.renderscript.ScriptGroup
 import android.view.InputDevice
 import android.view.View
+import android.widget.Toast
 import com.example.kotlinroom.R
 import com.example.kotlinroom.room.Const
 import com.example.kotlinroom.room.Homework
@@ -40,6 +41,7 @@ class AddActivity : AppCompatActivity() {
                 btn_updt.visibility = View.GONE
                 et_group.inputType = InputDevice.KEYBOARD_TYPE_NONE
                 deskripsi.inputType = InputDevice.KEYBOARD_TYPE_NONE
+                text.setText("Yuk dikerjain!!")
                 getIdol()
             }
             Const.TYPE_UPDATE -> {
@@ -65,6 +67,9 @@ class AddActivity : AppCompatActivity() {
                 )
                 finish()
             }
+        }
+        deskripsi.setOnClickListener {
+            Toast.makeText(this, "Deskipsi Tugas : " + deskripsi.text.toString() , Toast.LENGTH_LONG).show()
         }
     }
 

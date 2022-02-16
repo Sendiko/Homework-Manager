@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlinroom.R
+import kotlinx.android.synthetic.main.activity_add.view.*
 import kotlinx.android.synthetic.main.list_idols.view.*
 import java.util.ArrayList
 
@@ -23,6 +24,9 @@ class HomeworkAdapter(
         holder.view.text_title.text = homework.title
         holder.view.text_desc.text = homework.mapel
         holder.view.text_title.setOnClickListener {
+            listener.onViewListener(homework)
+        }
+        holder.view.text_desc.setOnClickListener {
             listener.onViewListener(homework)
         }
         holder.view.button_edit.setOnClickListener {

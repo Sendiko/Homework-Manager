@@ -11,8 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinRoom">
         <activity
+            android:name=".activity.SearchActivity"
+            android:exported="false"
+            android:label="Search"/>
+        <activity
             android:name=".activity.AddActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="View"/>
         <activity
             android:name=".activity.SplashScreenActivity"
             android:exported="true"
@@ -23,7 +28,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity"></activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
+            android:label=""/>
 
         <meta-data
             android:name="preloaded_fonts"
