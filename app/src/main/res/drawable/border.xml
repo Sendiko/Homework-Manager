@@ -8,4 +8,6 @@
         android:radius="2dp"/>
     <padding
         android:top="5dp"/>
+<!--    <fill-->
+<!--        android:color="@color/lightblue"/>-->
     </shape>

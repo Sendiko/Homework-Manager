@@ -5,9 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlinroom.R
-import kotlinx.android.synthetic.main.activity_add.view.*
 import kotlinx.android.synthetic.main.list_idols.view.*
-import java.util.ArrayList
 
 class HomeworkAdapter(
     private val homeworks: ArrayList<Homework>, private var listener : OnAdapterListener
