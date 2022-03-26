@@ -1,9 +1,11 @@
 package com.example.kotlinroom.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.kotlinroom.R
 import com.example.kotlinroom.room.Const
@@ -16,17 +18,19 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
+
 class SearchActivity : AppCompatActivity() {
     private val db by lazy { HomeworkDB(this) }
     lateinit var homeworkAdapter: HomeworkAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search)
-
-        textView.text = "Soon to be SearchActivity"
+        getSupportActionBar()?.setDisplayHomeAsUpEnabled(true);
 
         setupRecyclerView()
     }
+
+
 
     private fun loadHomework(){
         CoroutineScope(Dispatchers.IO).launch {
@@ -36,6 +40,11 @@ class SearchActivity : AppCompatActivity() {
                 homeworkAdapter.setData(homework)
             }
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        loadHomework()
     }
 
     private fun deleteDialog(homework: Homework){
@@ -84,5 +93,4 @@ class SearchActivity : AppCompatActivity() {
             adapter = homeworkAdapter
         }
     }
-
 }

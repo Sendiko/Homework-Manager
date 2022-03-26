@@ -13,6 +13,7 @@
         <activity
             android:name=".activity.SearchActivity"
             android:exported="false"
+            android:parentActivityName=".activity.MainActivity"
             android:label="Search"/>
         <activity
             android:name=".activity.AddActivity"
