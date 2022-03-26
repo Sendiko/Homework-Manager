@@ -5,9 +5,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/homework"
+        android:icon="@drawable/homework_ic"
         android:label="Homework Manager"
-        android:roundIcon="@drawable/homework"
+        android:roundIcon="@drawable/homework_ic"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinRoom">
         <activity

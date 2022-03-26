@@ -29,7 +29,7 @@
         android:padding="12dp"
         android:paddingStart="8dp"
         android:background="@drawable/bordermain"
-        android:drawableStart="@drawable/edit"
+        android:drawableStart="@drawable/homework"
         android:drawablePadding="8dp"
         android:id="@+id/et_name"
         android:layout_width="match_parent"

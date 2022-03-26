@@ -15,6 +15,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/homework"/>
+        app:srcCompat="@drawable/homework_ic"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
